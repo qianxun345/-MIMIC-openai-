@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>医疗机器人</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>医疗机器人</h1>
+  </header>
+  <div class="button-container">
+    <button id="button1" class="button1">simple question</button>
+    <button id="button2" class="button2">chain of thought</button>
+    <button id="button3" class="button3">tree of thought1</button>
+    <button id="button4" class="button4">tree of thought2</button>
+    <script src="/static/js/button.js"></script>
+  </div>
+  <div class="container">
+    <div class="chat-container">
+      <div id="message-list"></div>
+      <form id="message-form" style="margin-bottom: 10px;">
+        <input type="text" id="message-input" placeholder="Type a message...">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div id="loading">
+      <div class="spinner"></div>
+    </div>
+  </div>
+
+  <script src="/static/js/main.js"></script>
+</body>
+</html>
